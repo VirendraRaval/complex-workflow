@@ -15,3 +15,8 @@ jobs:
     runs-on: macos-latest
     steps:
     - run: date
+  dependtest:
+    needs: ubuntu
+    runs-on: ubuntu-latest
+    steps:
+    - run: date
